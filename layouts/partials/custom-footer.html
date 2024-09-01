@@ -14,7 +14,7 @@
 
     // Loop through each image and update the src attribute
     images.forEach(function (image) {
-      if (image.alt == "Untitled" || image.alt == "image"){
+      if (image.alt == "Untitled" || image.alt == "image") {
         const fullSrc = image.src;
 
         // Create a URL object
@@ -22,13 +22,13 @@
 
         image.src = baseurl.concat(url.pathname);
       }
-      
+
     });
   }
+  if (!baseurl.includes("localhost"))
+    updateImageSources();
 
-  updateImageSources();
 
-  
   // let bodyBlock ;
   // if (document.querySelector("#body-inner > h6 > strong > code")) {
   //   const idBlock = document.querySelector("#body-inner > h6 > strong > code");
@@ -38,7 +38,7 @@
   //   document.querySelector("#body > div.padding.highlightable").style.overflow = 'hidden';
 
   //   bodyBlock.parentElement.style.overflowY = 'hidden'
-  //   bodyBlock.innerHTML = 
+  //   bodyBlock.innerHTML =
   //   `
   //   <div style="margin:0px;padding:0px;overflow:hidden">
   //     <iframe src="https://notion-embed-iota.vercel.app/Notion_embed/a6c7e54800c245ac948a493efca43e58" frameborder="0" style="overflow:hidden;height:100vh;width:102%"></iframe>

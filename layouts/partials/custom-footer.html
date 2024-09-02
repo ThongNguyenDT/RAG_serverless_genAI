@@ -19,7 +19,7 @@
 
         // Create a URL object
         const url = new URL(fullSrc);
-        baseurl.replace('//vi/', '')
+        baseurl = baseurl.replace('//vi/', '')
         image.src = baseurl.concat(url.pathname);
       }
 

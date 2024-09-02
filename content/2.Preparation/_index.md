@@ -17,7 +17,7 @@ To get started, follow these steps:
 First, you need to clone the repository that contains the project files. This will allow you to access all the necessary code and resources required for the deployment.
 
 ```bash
-git clone https://github.com/aws-samples/Serverless-Retrieval-Augmented-Generation-RAG-on-AWS.git
+git clone https://github.com/ThongNguyenDT/Serverless-Retrieval-Augmented-Generation-RAG-on-AWS-for-Workshop.git
 cd RAG_serverless_genAI
 ```
 

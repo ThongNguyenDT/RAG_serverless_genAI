@@ -18,7 +18,7 @@ AWS Management Console cung cấp giao diện đồ họa thân thiện với ng
 Đầu tiên, bạn cần clone repository chứa các tệp tin của dự án. Điều này sẽ cho phép bạn truy cập vào toàn bộ mã nguồn và các tài nguyên cần thiết cho việc triển khai.
 
 ```bash
-git clone https://github.com/aws-samples/Serverless-Retrieval-Augmented-Generation-RAG-on-AWS.git
+git clone https://github.com/ThongNguyenDT/Serverless-Retrieval-Augmented-Generation-RAG-on-AWS-for-Workshop.git
 cd RAG_serverless_genAI
 ```
 

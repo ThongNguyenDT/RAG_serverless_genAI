@@ -14,7 +14,7 @@
 
     // Loop through each image and update the src attribute
     images.forEach(function (image) {
-      if (image.alt == "Untitled" || image.alt == "image") {
+      if (image.alt == "Untitled" || image.alt.includes("image")) {
         const fullSrc = image.src;
 
         // Create a URL object

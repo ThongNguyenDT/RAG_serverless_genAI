@@ -50,7 +50,7 @@ Retrieval-Augmented Generation (RAG) là phương pháp nâng cao khả năng c�
 
 Kiến trúc của giải pháp RAG không máy chủ của chúng ta được thiết kế để linh hoạt và mở rộng, tích hợp nhiều dịch vụ AWS để xử lý các khía cạnh khác nhau của ứng dụng. Dưới đây là sơ đồ mô tả kiến trúc:
 
-![architecture.png](https://file.notion.so/f/f/82d24988-e924-4f96-8610-1a16223be9b4/28ce552f-84cb-4458-a62a-0e6e299944ba/architecture.png?table=block&id=d4b4090c-d250-473d-a63a-589bd3763495&spaceId=82d24988-e924-4f96-8610-1a16223be9b4&expirationTimestamp=1725012000000&signature=KR5D6I1FyCjd9FYY6SVoXbTSUIIiMP2ZwI45PR0QaDw&downloadName=architecture.png)
+![image](/images/architecture.png)
 
 ### Các thành phần kiến trúc và quy trình làm việc
 

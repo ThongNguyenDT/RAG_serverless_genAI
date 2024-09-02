@@ -24,3 +24,16 @@ In this workshop, we will guide you through creating a serverless RAG solution o
 - **Secure and Manage User Access**: Understand how to secure your application using AWS Cognito and manage user authentication and authorization effectively.
 
 ## Table of Contents
+
+1. [Introduction](1.introduction/) 
+2. [Preparation](2.preparation/)
+3. [Setting Up a Document Processing System for User Submissions](3.documentembedsystem/) 
+4. [DynamoDB setup](4.DynamoDB/) 
+5. [Setup UI on local](5.LocalUI/) 
+6. [Users manager with Cognito](6.Cognito/) 
+7. [Main API Component Proceess user data](7.MainAPIComponent/) 
+8. [Setup Inference System](8.Interface/) 
+9. [Configuring System Manager Parameter Store](9.SystemManager/)  
+10. [Setting Up a Document Processing System for User Submissions](10.UITesting/) 
+11. [Deploying the Project's Interface on AWS Amplify](11.Amplify/) 
+12. [Clean Up Resources](CleanUp/) 

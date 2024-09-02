@@ -23,3 +23,16 @@ Trong buổi hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách t�
 - **Bảo mật và quản lý quyền truy cập người dùng**: Hiểu cách bảo mật ứng dụng của bạn bằng cách sử dụng AWS Cognito và quản lý xác thực và ủy quyền người dùng một cách hiệu quả.
 
 ## Mục lục
+
+1. [Giới thiệu](1.introduction/) 
+2. [Các bước chuẩn bị](2.preparation/)
+3. [Thiết Lập Hệ Thống Xử Lý Document Từ Người Dùng](3.documentembedsystem/) 
+4. [Hướng Dẫn Tạo Các Bảng Trong DynamoDB](4.DynamoDB/) 
+5. [Thiết lập giao diện trên local](5.LocalUI/) 
+6. [Quản lý user với Cognito](6.Cognito/) 
+7. [Xây dưng API xử lý dữ liệu người dùng](7.MainAPIComponent/) 
+8. [Thiết lập Inference System](8.Interface/) 
+9. [Cấu hình System Manager Parameter Store](9.SystemManager/)  
+10. [Kiểm tra các thiết lập trên giao diện](10.UITesting/) 
+11. [Deploy giao diện dự án lên AWS Amplify](11.Amplify/) 
+12. [Clean Up Resources](CleanUp/) 

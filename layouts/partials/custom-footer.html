@@ -8,7 +8,7 @@
 
   ga('create', 'UA-158079754-2', 'auto');
   ga('send', 'pageview');
-  document.querySelector("#logo").href = baseurl
+
   function updateImageSources() {
     // Select all image elements
     var images = document.querySelectorAll("img");
@@ -20,12 +20,13 @@
 
         // Create a URL object
         const url = new URL(fullSrc);
-        baseurl = baseurl.replace('//vi/', '')
-        image.src = baseurl.concat(url.pathname);
+        const rootURL = baseurl.replace('//vi/', '')
+        image.src = rootURL.concat(url.pathname);
       }
 
     });
   }
+  document.querySelector("#logo").href = baseurl
   if (!baseurl.includes("localhost"))
     updateImageSources();
 

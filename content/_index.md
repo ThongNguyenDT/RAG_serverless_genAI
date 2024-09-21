@@ -50,7 +50,7 @@ To solve the challenges of integrating up-to-date, accurate information into LLM
 
 The architecture of our serverless RAG solution is designed to be modular and scalable, integrating several AWS services to handle different aspects of the application. Below is a diagram representing the architecture:
 
-![image](/images/architecture.png)
+![image](/images/white_architecture.png)
 
 ### Architectural Components and Workflow
 
